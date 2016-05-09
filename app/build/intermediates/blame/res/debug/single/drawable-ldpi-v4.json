@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\f00310341\\Desktop\\CareSit-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_google.png",
+        "source": "C:\\Users\\f00310341\\Desktop\\CareSit-master-master\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui\\0.3.1\\res\\drawable-ldpi-v4\\ic_google.png"
+    },
+    {
+        "merged": "C:\\Users\\f00310341\\Desktop\\CareSit-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_twitter.png",
+        "source": "C:\\Users\\f00310341\\Desktop\\CareSit-master-master\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui\\0.3.1\\res\\drawable-ldpi-v4\\ic_twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\f00310341\\Desktop\\CareSit-master-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_facebook.png",
+        "source": "C:\\Users\\f00310341\\Desktop\\CareSit-master-master\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui\\0.3.1\\res\\drawable-ldpi-v4\\ic_facebook.png"
+    }
+]

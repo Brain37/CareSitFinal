@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wallet="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.brianscott.caresit.UserHome"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/startTimeEditText"
+        android:hint="start date &amp; start time"
+        android:textSize="8dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/lengthET"
+        android:layout_gravity="center_horizontal"
+        android:hint="length"
+        android:textSize="8dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/numKidsET"
+        android:layout_gravity="center_horizontal"
+        android:hint="number of kids"
+        android:textSize="8dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/descriptionEditText"
+        android:layout_gravity="center_horizontal"
+        android:hint="description"
+        android:textSize="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Cost: 0"
+        android:id="@+id/costTV"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase"
+            android:id="@+id/purchaseButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:id="@+id/logoutButton"
+            android:onClick="logoutButtonPressed" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="edit profile"
+            android:id="@+id/button3"
+            android:onClick="editProfileButtonPressed" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:id="@+id/notAcceptedLV"
+        android:backgroundTint="#b4adad"
+        android:layout_weight="0.23"
+        android:paddingBottom="5dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:id="@+id/notCompletedLV"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.52"
+        android:paddingBottom="5dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:id="@+id/completedLV"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
